@@ -1,0 +1,20 @@
+
+Function
+Description
+abs ( )		This function returns the absolute value of an integer. The absolute value of a number is always positive. Only integer values are supported in C.
+floor ( )	This function returns the nearest integer which is less than or equal to the argument passed to this function.
+round ( )	This function returns the nearest integer value of the float/double/long double argument passed to this function. If decimal value is from “.1 to .5”, it returns integer value less than the argument. If decimal value is from “.6 to .9”, it returns the integer value greater than the argument.
+ceil ( )	This function returns nearest integer value which is greater than or equal to the argument passed to this function.
+sin ( )		This function is used to calculate sine value.
+cos ( )		This function is used to calculate cosine.
+cosh ( )	This function is used to calculate hyperbolic cosine.
+exp ( )		This function is used to calculate the exponential “e” to the xth power.
+tan ( )		This function is used to calculate tangent.
+tanh ( )	This function is used to calculate hyperbolic tangent.
+sinh ( )	This function is used to calculate hyperbolic sine.
+log ( )		This function is used to calculates natural logarithm.
+log10.(.)	This function is used to calculates base 10 logarithm.
+sqrt ( )	This function is used to find square root of the argument passed to this function.
+pow ( )		This is used to find the power of the given number.
+trunc.(.)	This function truncates the decimal value from floating point value and returns integer value.
+

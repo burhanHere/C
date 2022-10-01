@@ -1,0 +1,63 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    printf("Welcome to self billing:-)");
+    printf("\nPlease enter the prices of the items you want to buy.");
+    printf("\nNote:- You can only buy 5 items in one bill.");
+    int a, b, c, d, e;
+    int Da, Db, Dc, Dd, De;
+    printf("\n_______________________________________________________________________________________________________");
+    printf("\nEnter the price of first item=");
+    scanf("%d", &a);
+    printf("\nEnter the amount of discount you want\non your first item=");
+    scanf("%d", &Da);
+    printf("\nEnter the price of second item=");
+    scanf("%d", &b);
+    printf("\nEnter the amount of discount you want\non your second item=");
+    scanf("%d", &Db);
+    printf("\nEnter the price of therd item=");
+    scanf("%d", &c);
+    printf("\nEnter the amount of discount you want\non your therd item=");
+    scanf("%d", &Dc);
+    printf("\nEnter the price of forth item=");
+    scanf("%d", &d);
+    printf("\nEnter the amount of discount you want\non your forth item=");
+    scanf("%d", &Dd);
+    printf("\nEnter the price of fifth item=");
+    scanf("%d", &e);
+    printf("\nEnter the amount of discount you want\non your fifth item=");
+    scanf("%d", &De);
+    int aDa, bDb, cDc, dDd, eDe;
+    aDa = a * Da / 100;
+    bDb = b * Db / 100;
+    cDc = c * Dc / 100;
+    dDd = d * Dd / 100;
+    eDe = e * De / 100;
+    int aDa1, bDb1, cDc1, dDd1, eDe1;
+    aDa1 = a - aDa;
+    bDb1 = b - bDb;
+    cDc1 = c - cDc;
+    dDd1 = d - dDd;
+    eDe1 = e - eDe;
+    printf("\nItem no:-\t\tPrices of items you bought.\t\t\tDiscount.\t\t\tPrice after discount.");
+    printf("\nItem 1:-\t\t%d\t\t\t\t\t\t\t%d\t\t\t\t\t%d", a, Da, aDa1);
+    printf("\nItem 1:-\t\t%d\t\t\t\t\t\t\t%d\t\t\t\t\t%d", b, Db, bDb1);
+    printf("\nItem 1:-\t\t%d\t\t\t\t\t\t\t%d\t\t\t\t\t%d", c, Dc, cDc1);
+    printf("\nItem 1:-\t\t%d\t\t\t\t\t\t\t%d\t\t\t\t\t%d", d, Dd, dDd1);
+    printf("\nItem 1:-\t\t%d\t\t\t\t\t\t\t%d\t\t\t\t\t%d", e, De, eDe1);
+    int T1;
+    T1 = a + b + c + d + e;
+    printf("\nTotal bill=%d", T1);
+    int TD;
+    TD = aDa1 + bDb1 + cDc1 + dDd1 + eDe1;
+    int GST;
+    GST = TD * 16 / 100;
+    int T2;
+    T2 = TD + GST;
+    printf("\nTotal bill after discount=%d", TD);
+    printf("\nGST Added=%d", GST);
+    printf("\nTotal bill after discount with GST(16percent)=%d", T2);
+    printf("\n\nThanks for comming.\n");
+    return 0;
+}

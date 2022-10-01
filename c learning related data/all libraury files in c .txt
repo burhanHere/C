@@ -1,0 +1,29 @@
+ANSI C library header files
+
+
+<assert.h>	Contains the assert macro, used to assist with detecting logical errors and other types of bug in debugging versions of a program.
+<complex.h>	A set of functions for manipulating complex numbers. (New with C99)
+<ctype.h>	This header file contains functions used to classify characters by their types or to convert between upper and lower case in a way that is independent of the used character set (typically ASCII or one of its extensions, although implementations utilizing EBCDIC are also known).
+<errno.h>	For testing error codes reported by library functions.
+<fenv.h>	For controlling floating-point environment. (New with C99)
+<float.h>	Contains defined constants specifying the implementation-specific properties of the floating-point library, such as the minimum difference between two different floating-point numbers (_EPSILON), the maximum number of digits of accuracy (_DIG) and the range of numbers which can be represented (_MIN, _MAX).
+<inttypes.h>	For precise conversion between integer types. (New with C99)
+<iso646.h>	For programming in ISO 646 variant character sets. (New with NA1)
+<limits.h>	Contains defined constants specifying the implementation-specific properties of the integer types, such as the range of numbers which can be represented (_MIN, _MAX).
+<locale.h>	For setlocale() and related constants. This is used to choose an appropriate locale.
+<math.h>	For computing common mathematical functions
+-- see Further math or C++ Programming/Code/Standard C Library/Math for details.
+
+<setjmp.h>	setjmp and longjmp, which are used for non-local exits
+<signal.h>	For controlling various exceptional conditions
+<stdarg.h>	For accessing a varying number of arguments passed to functions.
+<stdbool.h>	For a boolean data type. (New with C99)
+<stdint.h>	For defining various integer types. (New with C99)
+<stddef.h>	For defining several useful types and macros.
+<stdio.h>	Provides the core input and output capabilities of the C language. This file includes the venerable printf function.
+<stdlib.h>	For performing a variety of operations, including conversion, pseudo-random numbers, memory allocation, process control, environment, signalling, searching, and sorting.
+<string.h>	For manipulating several kinds of strings.
+<tgmath.h>	For type-generic mathematical functions. (New with C99)
+<time.h>	For converting between various time and date formats.
+<wchar.h>	For manipulating wide streams and several kinds of strings using wide characters - key to supporting a range of languages. (New with NA1)
+<wctype.h>	For classifying wide characters. (New with NA1)
